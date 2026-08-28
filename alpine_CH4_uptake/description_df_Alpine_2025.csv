@@ -1,0 +1,105 @@
+Column,Parameter,Unit,Description
+plot_key,Plot number,NA,Unique identifier for the sampling plot or experimental observation location.
+date.x,Measurement date,date,Date on which the chamber flux measurement was conducted (UTC).
+light_dark,Light/dark condition,NA,Indicates whether the chamber measurement was conducted under light (L) or dark (D) conditions. 
+time_in,Chamber start time,time,Time at which the chamber was placed/sealed over the sampling location.
+time_out,Chamber end time,time,Time at which the chamber measurement ended.
+ch4_umol_m2_s,Methane flux,µmol CH? m?² s?¹,Rate of methane exchange between the soil/vegetation surface and atmosphere.
+co2_umol_m2_s,Carbon dioxide flux,µmol CO? m?² s?¹,Rate of CO? exchange between the ecosystem and atmosphere.
+ch4_mgCH4_m2_d,"Methane flux, daily mass equivalent",mg CH? m?² d?¹,Methane exchange converted from molar flux to mass of CH? per square metre per day.
+co2_gC_m2_d,Carbon dioxide flux as carbon,g C m?² d?¹,CO? exchange converted to grams of carbon per square metre per day.
+avg_par,"Photosynthetic photon flux density, average",µmol m?² s?¹,Average photosynthetically active radiation measured during the chamber measurement (PPFD). 
+surface_temp,Surface temperature,°C,Temperature at the soil/vegetation surface during measurement.
+air_temp,Air temperature,°C,Ambient air temperature during the chamber measurement.
+x5cm_soil_temp,Soil temperature at 5 cm,°C,Soil temperature measured at approximately 5 cm soil depth.
+x12cm_soil_temp,Soil temperature at 12 cm,°C,Soil temperature measured at approximately 12 cm soil depth.
+soil_moisture_avg,"Soil moisture, average",% ,Average soil water content associated with the plot. 
+vegetation_avg,"Vegetation measurement, average",NA,Average vegetation-related measurement associated with the chamber/plot. 
+functional_group,Vegetation functional group,NA,Dominant or assigned plant functional group for the plot.
+prevelant_vegetation,Prevalent vegetation,NA,Dominant/prevalent plant taxon or vegetation type at the sampling location.
+chamber_mean_temp,Mean chamber temperature,°C,Mean air/chamber temperature during the chamber flux measurement.
+slope_aspect,Slope aspect,degrees,"Direction the slope faces, bearing from north."
+soil_depth_1,"Soil depth, replicate 1",cm,Soil depth measurement at the first sampling point.
+soil_depth_2,"Soil depth, replicate 2",cm,Soil depth measurement at the second sampling point.
+soil_depth_3,"Soil depth, replicate 3",cm,Soil depth measurement at the third sampling point.
+soil_depth_avg,"Soil depth, average",cm,Mean soil depth across the replicate measurements.
+vegetation_height_1,"Vegetation height, replicate 1",cm,Vegetation height at the first measurement point.
+vegetation_height_2,"Vegetation height, replicate 2",cm,Vegetation height at the second measurement point.
+vegetation_height_3,"Vegetation height, replicate 3",cm,Vegetation height at the third measurement point.
+vegetation_height_4,"Vegetation height, replicate 4",cm,Vegetation height at the fourth measurement point.
+vegetation_height_5,"Vegetation height, replicate 5",cm,Vegetation height at the fifth measurement point.
+date.y,Vegetation survey date,date,Date of the vegetation/soil survey (UTC).
+veg_height_mean,"Vegetation height, mean",cm,Mean vegetation height across all vegetation-height measurements.
+veg_height_max,"Vegetation height, maximum",cm,Maximum measured vegetation height within the sampling plot.
+veg_height_sd,"Vegetation height, standard deviation",cm,Standard deviation of vegetation height measurements.
+soil_depth_min,"Soil depth, minimum",cm,Minimum soil depth measured within the plot.
+soil_depth_max,"Soil depth, maximum",cm,Maximum soil depth measured within the plot.
+total_cover_all,Total vegetation cover,%,Total percentage of ground surface covered by vegetation.
+cover_Prostrate.Shrub,Cover of prostrate shrubs,%,Percentage of ground surface covered by low-growing/dwarf/prostrate shrubs.
+cover_Barren,Barren ground cover,%,Percentage of ground surface without vegetation cover.
+cover_Graminoid,Graminoid cover,%,"Percentage of ground surface covered by grasses, sedges and other graminoids."
+cover_Forb,Forb cover,%,Percentage of ground surface covered by herbaceous non-graminoid plants.
+cover_Erect.Shrub,Erect shrub cover,%,Percentage of ground surface covered by upright/erect/tall shrubs.
+prop_Prostrate.Shrub,Proportion of prostrate shrubs,proportion,Proportion of total cover represented by prostrate shrubs.
+prop_Barren,Proportion of barren ground,proportion,Proportion of the plot represented as barren ground.
+prop_Graminoid,Proportion of graminoids,proportion,Proportion of vegetation cover represented by graminoids.
+prop_Forb,Proportion of forbs,proportion,Proportion of vegetation cover represented by forbs.
+prop_Erect.Shrub,Proportion of erect shrubs,proportion,Proportion of vegetation cover represented by erect shrubs.
+richness,Species richness,number of taxa,Number of plant taxa/species recorded within the sampling plot.
+H,Shannon diversity index,NA,Shannon-Wiener diversity index calculated from vegetation cover.
+evenness,Vegetation evenness,NA,Measure describing how evenly vegetation abundance/cover is distributed among taxa.
+cover_shrub,Shrub cover,%,Total vegetation cover of shrub vegetation.
+cover_graminoid,Graminoid cover,%,"Total cover of grasses, sedges and other graminoids."
+cover_forb,Forb cover,%,Total cover of herbaceous non-graminoid plants.
+cover_moss,Moss cover,%,Total cover of surface covered by mosses/bryophytes.
+cover_lichen,Lichen cover,%,Total cover of surface covered by lichens.
+shrub_to_herb,Shrub-to-herb ratio,ratio,Ratio of shrub cover/abundance to herbaceous vegetation cover/abundance.
+bryo_lichen_sum,Bryophyte and lichen cover,%,Combined cover of bryophytes and lichens.
+gcc_mean,"Green chromatic coordinate, mean",NA,Mean green chromatic coordinate derived from digital imagery; an indicator of vegetation greenness (GCC).
+gcc_med,"Green chromatic coordinate, median",NA,Median green chromatic coordinate from vegetation imagery.
+gcc_p90,"Green chromatic coordinate, 90th percentile",NA,90th percentile of green chromatic coordinate values.
+exg_mean,"Excess green index, mean",NA,Mean Excess Green (ExG) image index.
+vari_mean,"Visible Atmospherically Resistant Index, mean",NA,Mean VARI vegetation index calculated from visible-spectrum imagery.
+bulk_density_g_cm3,Soil bulk density,g cm?³,"Dry mass of soil per unit volume of soil, including pore space."
+volumetric_water_content_percent,Volumetric soil water content,VWC,Volume of water contained in the soil expressed as a percentage of total soil volume.
+total_n,Total nitrogen,µg 10 cm?²,"Total nitrogen concentration in the soil derived from Plant-Root Simulator Probes (PRS). PRS ion-exchange resin probes (Western Ag Innovations) were deployed over a 3- week period from July 19 to August 8th, 2025, and returned to the manufacturer for analysis. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025).
+"
+no3_n,Nitrate nitrogen,µg 10 cm?²,"Nitrogen present as nitrate (NO??). Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+nh4_n,Ammonium nitrogen,µg 10 cm?²,"Nitrogen present as ammonium (NH??).Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+p,Phosphorus,µg 10 cm?²,"phosphorus concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+k,Potassium,µg 10 cm?²,"potassium concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+ca,Calcium,µg 10 cm?²,"calcium concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+mg,Magnesium,µg 10 cm?²,"magnesium concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+s,Sulfur,µg 10 cm?²,"sulfur concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+fe,Iron,µg 10 cm?²,"iron concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+mn,Manganese,µg 10 cm?²,"manganese concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+cu,Copper,µg 10 cm?²,"copper concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+zn,Zinc,µg 10 cm?²,"zinc concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+b,Boron,µg 10 cm?²,"boron concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+al,Aluminum,µg 10 cm?²,"aluminum concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+cd,Cadmium,µg 10 cm?²,"cadmium concentration. Results are expressed as µg nutrient per 10 cm² resin surface area integrated over the burial period (July 19 to August 8th, 2025)."
+date,PRS Removal date,date,"Date of the removal of PRS probes (July 19 to August 8th, 2025)."
+p_h,Measurement pH,NA,pH measurement.
+ER_umol_m2_s,Ecosystem respiration,µmol CO? m?² s?¹,Rate of ecosystem CO? release from respiration.
+GPP_umol_m2_s,Gross primary production,µmol CO? m?² s?¹,Rate of CO? exchange between the ecosystem and atmosphere.
+ER_gC_m2_d,Ecosystem respiration as carbon,g C m?² d?¹,Ecosystem respiration converted to grams of carbon per square metre per day.
+GPP_gC_m2_d,Gross primary production as carbon,g C m?² d?¹,Gross photosynthetic carbon uptake expressed as grams of carbon per square metre per day.
+bm_forb,Forb biomass,g,Biomass of forb vegetation within the sampled area.
+bm_moss_lichen,Moss and lichen biomass,g,Biomass of mosses and lichens within the sampled area..
+bm_shrub,Shrub biomass,g,Biomass of shrub vegetation within the sampled area..
+bm_dead,Dead plant biomass,g,Biomass of dead plant material/litter within the sampled area..
+bm_graminoid,Graminoid biomass,g,"Biomass of grasses, sedges and other graminoids within the sampled area."
+bm_biomass_total_g,Total aboveground biomass,g,Sum of biomass.
+bm_prop_forb,"Proportion of biomass, forbs",proportion,Fraction of total biomass represented by forbs.
+bm_prop_moss_lichen,"Proportion of biomass, moss/lichen",proportion,Fraction of total biomass represented by mosses and lichens.
+bm_prop_shrub,"Proportion of biomass, shrubs",proportion,Fraction of total biomass represented by shrubs.
+bm_prop_dead,"Proportion of biomass, dead material",proportion,Fraction of total biomass represented by dead material.
+bm_prop_graminoid,"Proportion of biomass, graminoids",proportion,Fraction of total biomass represented by graminoids.
+total_N,Total nitrogen,concentration,Total nitrogen concentration measured in the soil sample from cores.
+total_C,Total carbon,concentration,Total carbon concentration in the soil sample from cores.
+LOI_mean,"Loss on ignition, mean",%,Mean estimate of soil organic matter content.
+LOI_sd,"Loss on ignition, standard deviation",%,Standard deviation of loss-on-ignition measurements.
+inorg_C,Inorganic carbon,concentration,Carbon present in inorganic form.
+Lat,Latitude,decimal degrees,latitude of the sampling location.
+Lon,Longitude,decimal degrees,longitude of the sampling location.
+Elevation (ft),Elevation,ft,"Elevation of the site above sea level, expressed in feet."
